@@ -1,8 +1,8 @@
 {
  "mode": "ARCHIWALNY",
  "anonymised": true,
- "snapshot_as_of_utc": "2026-09-05T06:00:20+00:00",
- "exported_at_utc": "2026-09-05T06:09:17Z",
+ "snapshot_as_of_utc": "2026-09-05T06:19:32+00:00",
+ "exported_at_utc": "2026-09-05T06:19:44Z",
  "relative_freshness_allowed": false,
  "note": "Kopia statyczna. Dane pochodzą z chwili podanej w `snapshot_as_of_utc` i nie odświeżają się. Etykiety względne, w rodzaju zdania o przeliczeniu przed chwilą, nie mają tu znaczenia i nie wolno ich renderować."
 }
