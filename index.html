@@ -20,6 +20,15 @@
     <link rel="modulepreload" crossorigin href="/fpl-decision-lab/assets/charts-DiOzaKnu.js">
     <link rel="modulepreload" crossorigin href="/fpl-decision-lab/assets/react-Bow23YCD.js">
     <link rel="stylesheet" crossorigin href="/fpl-decision-lab/assets/index-YL4M4P01.css">
+  <script>
+// spa-gh-pages: odtworzenie sciezki przed startem routera.
+(function (l) {
+  if (l.search[1] === '/') {
+    var d = l.search.slice(1).split('&').map(function (s) { return s.replace(/~and~/g, '&'); }).join('?');
+    window.history.replaceState(null, null, l.pathname.slice(0, -1) + d + l.hash);
+  }
+}(window.location));
+</script>
   </head>
   <body><div id="root"></div></body>
 </html>
